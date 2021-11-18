@@ -15,10 +15,10 @@
   <%= @meeting.end_time %>
 </p>
 
-<p>
+<%# <p>
   <strong>User:</strong>
   <%= @meeting.user_id %>
-</p>
+<%# </p> %>
 
 <%= link_to 'Edit', edit_meeting_path(@meeting) %> |
 <%= link_to 'Back', meetings_path %>
